@@ -11,6 +11,9 @@
 		<constructor-arg name="name" value="#{configConnProp['connection.apache.queue.destination']}" />
 	</bean>
 	
+	
+	<!-- Configuración de Spring Integration para Producer Queue JMS -->
+	
 	<int:publish-subscribe-channel id="jmsProducerChannelQueue" />
 	
 	<int-jms:outbound-channel-adapter id="outBoundChannelQueue"
@@ -19,6 +22,10 @@
 									  pub-sub-domain="true"
 									  connection-factory="connectionFactory" 
 									  message-converter="messageConverter"/>
+									  
+									  
+
+	<!-- Configuración de Spring Integration para Consumer Queue JMS -->									 
 									  
 	<int:publish-subscribe-channel id="jmsConsumerChannelQueue" />	
 	
