@@ -67,6 +67,6 @@
 
 	</dependencies>
 	<build>
-		<finalName>JMSActiveMQ-Apache</finalName>
+		<finalName>jms-activemq-with-apache</finalName>
 	</build>
 </project>
