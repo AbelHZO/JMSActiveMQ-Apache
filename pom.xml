@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.abelhzo.activemq.apache</groupId>
-	<artifactId>JMSActiveMQ-Apache</artifactId>
+	<artifactId>jms-activemq-with-apache</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>JMSActiveMQ-Apache Maven Webapp</name>
+	<name>jms-activemq-with-apache Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
